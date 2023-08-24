@@ -48,3 +48,27 @@ form input {
   outline: none;
   background: transparent;
 }
+
+::placeholder {
+  color: #777;
+}
+
+.btn-box {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form button {
+  width: 110px;
+  height: 35px;
+  margin: 0 10px;
+  background: linear-gradient(to right, #1565c0, #1976d2);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.8em;
+}
